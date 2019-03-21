@@ -1,4 +1,4 @@
-# Menzer & Kristensens 
+# Menzer & Kristensen
 ## eksamensprojekt 2019
 
 Dette repository indeholder bl.a:
