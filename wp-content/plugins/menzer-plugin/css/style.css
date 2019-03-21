@@ -1,0 +1,135 @@
+
+/*styling til selve boksen*/
+
+
+
+.email-form {
+    position: fixed;
+    bottom: 0;
+ right: 0;
+    width: 50%;
+    background-color: lightgrey;
+    padding: 20px;
+    z-index: 4;
+    color: black;
+    
+
+/*animationens hastighed når den kommer ind samt hvornår den skal starte*/
+
+
+	
+	        animation: ani-email-form 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation-delay: 8s;
+}
+
+/* ændrer skrifttyperne på plugin*/
+.email-form h2  { 
+    font-family: "overskrift MK", Sans-serif;
+    font-size: 30px;
+}
+
+.email-form p {
+    font-family: "brødtekst MK", Sans-serif;
+}
+
+ .interest, .input   {
+    font-family: "brødtekst MK", Sans-serif;
+}
+
+
+
+
+.email-description {
+    width: 80%;
+    margin: auto;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+}
+
+
+
+.form {
+    width: 80%;
+    margin: auto;
+}
+
+#email {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+
+/*knappen på plugin*/
+
+button {
+    background-color: #a32622;
+    margin-top: 30px !important;
+    padding: 3% 5% 3% 5%;
+   
+}
+
+
+button:hover {
+    background-color: darkred;
+}
+.modtag-katalog {
+
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.modtag-katalog:hover {
+
+   
+    color: white;
+}
+
+
+/*animationen der får pluginet til atkomme ind på siden*/
+
+
+
+@keyframes ani-email-form {
+  0% {
+            transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+            transform: translateY(0);
+    opacity: 1;
+  }
+
+
+}
+
+/* her ændres checkboksene til at give et rødt flueben istedet for wordpress standard blå*/
+
+input[type=checkbox]:checked:before {
+   
+    color: #a32622 !important;
+}
+
+
+
+
+/*mobil*/
+
+@media (max-width: 760px) {
+    .email-form {
+    
+   
+   margin: 20% 0 0 0;
+    width: 100%;
+    animation-delay: 1s;
+}
+
+/*gøre krydset større*/
+.close {
+    font-size: 20px;
+}
+}
