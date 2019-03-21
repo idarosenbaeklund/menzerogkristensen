@@ -1,7 +1,7 @@
-#Menzer & Kristensens 
-##eksamensprojekt 2019
+# Menzer & Kristensens 
+## eksamensprojekt 2019
 
-Dette repository indeholder:
+Dette repository indeholder bl.a:
 + forside
 + selvlavet plugin
 + stylesheet til plugin
